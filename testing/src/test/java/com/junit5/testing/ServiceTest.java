@@ -7,8 +7,7 @@ public class ServiceTest {
     Repository repository;
     @InjectMocks
     Service service;
-    public ServiceTest() {
-    } 
+    public ServiceTest() { } 
     @Test
     public void testGetStuffWithLengthLessThanTen() {
         System.out.println("getStuffWithLengthLessThanTen");
@@ -16,8 +15,7 @@ public class ServiceTest {
         Service instance = new Service(repo);
         List<String> expResult = Arrays.asList("One", "Two", "Three");
         List<String> result = instance.getStuffWithLengthLessThanTen();
-        assertEquals(expResult, result);
-    }    
+        assertEquals(expResult, result);}    
     @Test
     public void testSuccess() { // Setup mock scenario
         try {
@@ -26,6 +24,5 @@ public class ServiceTest {
         } // Execute the service that uses the mocked repository
         List<String> stuff = service.getStuffWithLengthLessThanTen();
         Assertions.assertNotNull(stuff);
-        Assertions.assertEquals(2, stuff.size());
-    }
+        Assertions.assertEquals(2, stuff.size()); }
 }
