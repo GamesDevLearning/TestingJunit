@@ -3,7 +3,6 @@ import java.sql.SQLException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-
 /** @author coding_java */
 public class Service {
     private final Repository repository;

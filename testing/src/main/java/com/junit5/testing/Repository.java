@@ -1,5 +1,4 @@
 package com.junit5.testing;
-
 import java.sql.SQLException;
 import java.util.Arrays;
 import java.util.List;
