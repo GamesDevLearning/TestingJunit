@@ -1,5 +1,4 @@
-package com.junit5.testing;
-
+package com.junit5.testing;   
 import java.sql.SQLException;
 import java.util.Arrays;
 import java.util.List;
@@ -12,7 +11,6 @@ import org.mockito.Mock;
 import static org.mockito.Mockito.when;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-/** @author coding_java */
 @ExtendWith(MockitoExtension.class)
 public class ServiceTest {
         
@@ -37,7 +35,6 @@ public class ServiceTest {
         try {
             when(repository.getStuff("")).thenReturn(Arrays.asList("A", "B"));
         } catch (SQLException e) {
-            e.printStackTrace();
         } // Execute the service that uses the mocked repository
         List<String> stuff = service.getStuffWithLengthLessThanTen();
         Assertions.assertNotNull(stuff);
