@@ -1,26 +1,14 @@
-package com.junit5.testing;   
-import java.sql.SQLException;
-import java.util.Arrays;
-import java.util.List;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import static org.mockito.Mockito.when;
-import org.mockito.junit.jupiter.MockitoExtension;
+package com.junit5.testing;import java.sql.SQLException;import java.util.Arrays; import java.util.List; import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test; import static org.junit.jupiter.api.Assertions.*; import org.junit.jupiter.api.extension.ExtendWith; import org.mockito.InjectMocks; import org.mockito.Mock; import static org.mockito.Mockito.when; import org.mockito.junit.jupiter.MockitoExtension;
 
 @ExtendWith(MockitoExtension.class)
-public class ServiceTest {
-        
+public class ServiceTest {     
     @Mock
     Repository repository;
     @InjectMocks
     Service service;
     public ServiceTest() {
-    }
-    
+    } 
     @Test
     public void testGetStuffWithLengthLessThanTen() {
         System.out.println("getStuffWithLengthLessThanTen");

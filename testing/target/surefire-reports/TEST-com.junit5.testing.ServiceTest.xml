@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.junit5.testing.ServiceTest" time="0.316" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.junit5.testing.ServiceTest" time="0.358" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mollymcconaghy/Code/TestingJunit/testing/target/surefire/surefirebooter4859357219044545666.jar /Users/mollymcconaghy/Code/TestingJunit/testing/target/surefire 2020-05-08T17-52-22_907-jvmRun1 surefire5213728609486397329tmp surefire_0805236686313591368tmp"/>
+    <property name="sun.java.command" value="/Users/mollymcconaghy/Code/TestingJunit/testing/target/surefire/surefirebooter11472028522771384654.jar /Users/mollymcconaghy/Code/TestingJunit/testing/target/surefire 2020-05-08T18-07-14_819-jvmRun1 surefire7317242327560919678tmp surefire_011447086552193119515tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="com.junit5.testing.ServiceTest"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/mollymcconaghy/Code/TestingJunit/testing/target/surefire/surefirebooter4859357219044545666.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mollymcconaghy/Code/TestingJunit/testing/target/surefire/surefirebooter11472028522771384654.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost"/>
     <property name="java.runtime.version" value="13-ea+33"/>
@@ -55,6 +55,6 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="testGetStuffWithLengthLessThanTen" classname="com.junit5.testing.ServiceTest" time="0.299"/>
-  <testcase name="testSuccess" classname="com.junit5.testing.ServiceTest" time="0.01"/>
+  <testcase name="testGetStuffWithLengthLessThanTen" classname="com.junit5.testing.ServiceTest" time="0.339"/>
+  <testcase name="testSuccess" classname="com.junit5.testing.ServiceTest" time="0.013"/>
 </testsuite>
