@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.junittest2.java.RecordDatabaseTest" time="0.417" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.junittest2.java.RecordDatabaseTest" time="0.474" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,9 +12,10 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mollymcconaghy/Code/TestingJunit/testing/target/surefire/surefirebooter10784944312249985238.jar /Users/mollymcconaghy/Code/TestingJunit/testing/target/surefire 2020-05-08T17-47-02_273-jvmRun1 surefire15632728079031383638tmp surefire_03547037755205365550tmp"/>
+    <property name="sun.java.command" value="/Users/mollymcconaghy/Code/TestingJunit/testing/target/surefire/surefirebooter14866394297435611206.jar /Users/mollymcconaghy/Code/TestingJunit/testing/target/surefire 2020-05-08T22-42-36_681-jvmRun1 surefire6044860609624043718tmp surefire_03940799910830458073tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.junittest2.java.RecordDatabaseTest"/>
     <property name="surefire.test.class.path" value="/Users/mollymcconaghy/Code/TestingJunit/testing/target/test-classes:/Users/mollymcconaghy/Code/TestingJunit/testing/target/classes:/Users/mollymcconaghy/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.3.1/junit-jupiter-api-5.3.1.jar:/Users/mollymcconaghy/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/mollymcconaghy/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/mollymcconaghy/.m2/repository/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar:/Users/mollymcconaghy/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.3.1/junit-jupiter-params-5.3.1.jar:/Users/mollymcconaghy/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.3.1/junit-jupiter-engine-5.3.1.jar:/Users/mollymcconaghy/.m2/repository/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.jar:/Users/mollymcconaghy/.m2/repository/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar:/Users/mollymcconaghy/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/mollymcconaghy/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/mollymcconaghy/.m2/repository/org/mockito/mockito-junit-jupiter/3.1.0/mockito-junit-jupiter-3.1.0.jar:/Users/mollymcconaghy/.m2/repository/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar:/Users/mollymcconaghy/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/mollymcconaghy/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/mollymcconaghy/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/mollymcconaghy/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/mollymcconaghy"/>
@@ -28,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/mollymcconaghy/Code/TestingJunit/testing/target/surefire/surefirebooter10784944312249985238.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mollymcconaghy/Code/TestingJunit/testing/target/surefire/surefirebooter14866394297435611206.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost"/>
     <property name="java.runtime.version" value="13-ea+33"/>
@@ -54,7 +55,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="testSave" classname="com.junittest2.java.RecordDatabaseTest" time="0.409">
+  <testcase name="testSave" classname="com.junittest2.java.RecordDatabaseTest" time="0.463">
     <error type="org.mockito.exceptions.misusing.UnnecessaryStubbingException"><![CDATA[org.mockito.exceptions.misusing.UnnecessaryStubbingException: 
 
 Unnecessary stubbings detected.

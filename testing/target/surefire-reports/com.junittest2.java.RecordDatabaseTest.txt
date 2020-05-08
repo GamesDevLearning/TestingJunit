@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.junittest2.java.RecordDatabaseTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.417 s <<< FAILURE! - in com.junittest2.java.RecordDatabaseTest
-com.junittest2.java.RecordDatabaseTest.testSave  Time elapsed: 0.409 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.474 s <<< FAILURE! - in com.junittest2.java.RecordDatabaseTest
+com.junittest2.java.RecordDatabaseTest.testSave  Time elapsed: 0.463 s  <<< ERROR!
 org.mockito.exceptions.misusing.UnnecessaryStubbingException: 
 
 Unnecessary stubbings detected.
